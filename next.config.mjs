@@ -8,7 +8,7 @@ const nextConfig = {
     unoptimized: true,
   },
   experimental: {
-    optimizeCss: true,
+    // Remove optimizeCss which requires critters
     optimizePackageImports: ['framer-motion', 'lucide-react'],
   },
   compiler: {

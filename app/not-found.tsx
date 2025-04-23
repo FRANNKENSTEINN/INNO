@@ -16,10 +16,8 @@ export default function NotFound() {
       >
         <Card className="backdrop-blur-md bg-white/10 border-none overflow-hidden p-8">
           <h1 className="text-4xl font-bold text-gold-500 dark:text-blue-500 mb-4">404</h1>
-          <h2 className="text-2xl font-bold text-white mb-4">Page Not Found</h2>
-          <p className="text-emerald-200 dark:text-blue-200 mb-6">
-            The page you are looking for doesn't exist or has been moved.
-          </p>
+          <h2 className="text-2xl font-bold mb-4">Page Not Found</h2>
+          <p className="mb-6">The page you are looking for doesn't exist or has been moved.</p>
           <Link
             href="/"
             className="inline-flex items-center justify-center bg-gradient-to-r from-gold-500 to-gold-600 dark:from-blue-500 dark:to-blue-600 text-white px-6 py-3 rounded-lg hover:from-gold-600 hover:to-gold-700 dark:hover:from-blue-600 dark:hover:to-blue-700 transition-all duration-300"
